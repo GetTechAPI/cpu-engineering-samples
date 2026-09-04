@@ -1,0 +1,41 @@
+{
+  "slug": "intel-qvye",
+  "name": "Intel QVYE Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "QVYE",
+  "opn": null,
+  "stepping": "A0",
+  "cpuid": "A0670",
+  "sample_revision": "es1",
+  "retail_equivalent": "core-i9-11900",
+  "first_seen_date": "2020-12-27",
+  "release_date": null,
+  "segment": "desktop",
+  "architecture": "Rocket Lake",
+  "socket": "LGA1200",
+  "process_node": "14 nm",
+  "cores": 8,
+  "threads": 16,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 1.8,
+  "boost_clock_ghz": 4.5,
+  "l3_cache_mb": 16.0,
+  "tdp_w": 65,
+  "max_tdp_w": null,
+  "integrated_graphics": "Intel Xe-LP",
+  "memory_support": "DDR4",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Rocket Lake-S A0 engineering sample (ES2). Wccftech and VideoCardz list QVYE as an 8C/16T 1.8/4.5 GHz 65 W sample with Hyper-Threading. CPU-World records Intel Confidential IHS marking QVYE 1.80GHZ and 16 MB L3.",
+  "source_urls": [
+    "https://wccftech.com/intel-core-i9-11900-i7-11700k-i7-11700-8-core-rocket-lake-desktop-cpus-leak/",
+    "https://videocardz.com/newz/intel-rocket-lake-core-i7-11700k-and-i9-11900-es2-exposed-b560-to-get-memory-overclocking",
+    "https://www.cpu-world.com/sspec/QV/QVYE.html",
+    "https://en.wikipedia.org/wiki/Rocket_Lake"
+  ]
+}

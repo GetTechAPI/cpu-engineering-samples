@@ -1,0 +1,43 @@
+{
+  "slug": "intel-qv1j",
+  "name": "Intel QV1J Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "QV1J",
+  "opn": null,
+  "stepping": "A0",
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": "core-i7-11700",
+  "first_seen_date": "2020-12-22",
+  "release_date": null,
+  "segment": "desktop",
+  "architecture": "Rocket Lake",
+  "socket": "LGA1200",
+  "process_node": "14 nm",
+  "cores": 8,
+  "threads": 16,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 1.8,
+  "boost_clock_ghz": 4.4,
+  "l3_cache_mb": 16.0,
+  "tdp_w": 65,
+  "max_tdp_w": null,
+  "integrated_graphics": "Intel Xe-LP",
+  "memory_support": "DDR4",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Rocket Lake-S A0 engineering sample. Tom's Hardware, Wccftech, and ThinkComputers list QV1J as an 8C/16T 1.8 GHz ES with 4.4 GHz single-core boost. CPU-World records Intel Confidential IHS marking QV1J 1.80GHZ.",
+  "source_urls": [
+    "https://www.tomshardware.com/news/rocket-lake-engineering-samples-benchmarked",
+    "https://wccftech.com/intel-core-i9-11900-i7-11700k-i7-11700-8-core-rocket-lake-desktop-cpus-leak/",
+    "https://thinkcomputers.org/intel-core-i9-11900-engineering-sample-tested-in-cpu-z/",
+    "https://www.cpu-world.com/sspec/QV/QV1J.html",
+    "https://videocardz.com/newz/intel-core-i9-11900-engineering-sample-tested-in-cpu-z-benchmark-on-z490-motherboard",
+    "https://en.wikipedia.org/wiki/Rocket_Lake"
+  ]
+}
