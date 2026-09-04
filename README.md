@@ -36,6 +36,18 @@ python -m pytest -q
 
 The validator uses the Python standard library. QS, retail, and production `sample_class` values fail the build.
 
+## Collection
+
+Intake is **classify-then-write**. A candidate is `es`, `qs`, `retail`, or `unknown`. Only `es` may become a JSON file. QS and retail stay out; `unknown` is for human review.
+
+```bash
+python -m app.ingest path/to/candidate.json
+```
+
+No network. Identifier rules: Intel S-spec → retail, Q-spec + early stepping / low clocks / “Intel Confidential” → es, Q-spec labeled QS or mature stepping with retail clocks → qs. AMD `100-00000…` / Eng Sample → es, historical `Z…` OPN → qs.
+
+Crawlers come later. This classifier is the gate.
+
 ## Branching (git-flow)
 
 | Branch | Role |
