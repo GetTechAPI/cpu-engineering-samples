@@ -1,0 +1,39 @@
+{
+  "slug": "amd-100-000000719-52-y",
+  "name": "AMD Eng Sample 100-000000719-52_Y",
+  "manufacturer": "amd",
+  "sample_class": "es",
+  "qspec": null,
+  "opn": "100-000000719-52_Y",
+  "stepping": null,
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": "ryzen-9-9950x3d",
+  "first_seen_date": "2024-12-27",
+  "release_date": null,
+  "segment": "desktop",
+  "architecture": "Zen 5",
+  "socket": "AM5",
+  "process_node": "TSMC N4P",
+  "cores": 16,
+  "threads": 32,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": null,
+  "boost_clock_ghz": null,
+  "l3_cache_mb": null,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR5",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "AMD Eng Sample"
+  ],
+  "notes": "Granite Ridge 16C/32T engineering sample. VideoCardz reports AMD Eng Sample 100-000000719-52_Y as a 16-core Zen 5 3D V-Cache part; Geekbench listings show 16 cores.",
+  "source_urls": [
+    "https://videocardz.com/newz/amd-16-core-ryzen-9000hx-fire-range-and-ryzen-9-9950x3d-cpus-spotted-in-geekbench-ai-test",
+    "https://en.wikipedia.org/wiki/Zen_5"
+  ]
+}
