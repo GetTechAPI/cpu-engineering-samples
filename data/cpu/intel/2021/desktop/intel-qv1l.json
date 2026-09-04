@@ -1,0 +1,39 @@
+{
+  "slug": "intel-qv1l",
+  "name": "Intel QV1L Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "QV1L",
+  "opn": null,
+  "stepping": null,
+  "cpuid": "A0670",
+  "sample_revision": "es1",
+  "retail_equivalent": "core-i9-11900t",
+  "first_seen_date": "2025-01-12",
+  "release_date": null,
+  "segment": "desktop",
+  "architecture": "Rocket Lake",
+  "socket": "LGA1200",
+  "process_node": "14 nm",
+  "cores": 8,
+  "threads": 16,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 1.1,
+  "boost_clock_ghz": 4.4,
+  "l3_cache_mb": 16.0,
+  "tdp_w": 35,
+  "max_tdp_w": null,
+  "integrated_graphics": "Intel Xe-LP",
+  "memory_support": "DDR4",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Rocket Lake-S engineering sample. CPU-World CPUID dump for QV1L reports Genuine Intel 0000 at 1.10 GHz with 8 cores and 16 logical processors, 16 MB L3, and CPUID A0670.",
+  "source_urls": [
+    "https://www.cpu-world.com/sspec/QV/QV1L.html",
+    "https://en.wikipedia.org/wiki/Rocket_Lake"
+  ]
+}
