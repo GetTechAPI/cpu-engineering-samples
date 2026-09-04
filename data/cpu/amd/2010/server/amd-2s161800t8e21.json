@@ -1,0 +1,40 @@
+{
+  "slug": "amd-2s161800t8e21",
+  "name": "AMD Eng Sample 2S161800T8E21",
+  "manufacturer": "amd",
+  "sample_class": "es",
+  "qspec": null,
+  "opn": "2S161800T8E21",
+  "stepping": null,
+  "cpuid": null,
+  "sample_revision": "es2",
+  "retail_equivalent": null,
+  "first_seen_date": "2010-10-03",
+  "release_date": null,
+  "segment": "server",
+  "architecture": "K10",
+  "socket": "G34",
+  "process_node": "45 nm",
+  "cores": 8,
+  "threads": 8,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 1.6,
+  "boost_clock_ghz": null,
+  "l3_cache_mb": 12.0,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR3",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "AMD Eng Sample"
+  ],
+  "notes": "Magny-Cours Opteron 6100 8C/8T engineering sample. CPU-World lists 2S161800T8E21 as an engineering sample with 8 cores / 8 threads at 1.6 GHz, 12 MB L3, Socket G34. BIOS name AMD Engineering Sample. Prefix 2 = ES2.",
+  "source_urls": [
+    "https://www.cpu-world.com/CPUs/K10/AMD-Opteron%202S161800T8E21.html",
+    "https://www.cpu-world.com/info/AMD/AMD-ES-part-numbers.html",
+    "https://en.wikipedia.org/wiki/Opteron"
+  ]
+}
