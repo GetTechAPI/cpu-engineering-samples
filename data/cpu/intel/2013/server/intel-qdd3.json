@@ -1,0 +1,39 @@
+{
+  "slug": "intel-qdd3",
+  "name": "Intel QDD3 Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "QDD3",
+  "opn": null,
+  "stepping": "A0",
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": null,
+  "first_seen_date": "2014-04-28",
+  "release_date": null,
+  "segment": "server",
+  "architecture": "Haswell-EP",
+  "socket": "LGA2011-3",
+  "process_node": "22 nm",
+  "cores": 12,
+  "threads": 24,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.5,
+  "boost_clock_ghz": 3.0,
+  "l3_cache_mb": 30.0,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR4-2133",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Haswell-EP ES1 A0 engineering sample. Intel Confidential 12-core dual-socket Xeon E5-2600 v3 class part at 2.5 GHz with 30 MB L3 and Hyper-Threading. Early silicon; some features untested.",
+  "source_urls": [
+    "https://www.cpu-world.com/news_2014/2014042802_Early_Haswell-EP_sample_spotted_on_eBay.html",
+    "https://en.wikipedia.org/wiki/Haswell_(microarchitecture)"
+  ]
+}
