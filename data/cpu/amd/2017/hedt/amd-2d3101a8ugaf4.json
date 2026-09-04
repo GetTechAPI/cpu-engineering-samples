@@ -1,0 +1,39 @@
+{
+  "slug": "amd-2d3101a8ugaf4",
+  "name": "AMD Eng Sample 2D3101A8UGAF4",
+  "manufacturer": "amd",
+  "sample_class": "es",
+  "qspec": null,
+  "opn": "2D3101A8UGAF4",
+  "stepping": null,
+  "cpuid": null,
+  "sample_revision": "es2",
+  "retail_equivalent": null,
+  "first_seen_date": null,
+  "release_date": null,
+  "segment": "hedt",
+  "architecture": "Zen",
+  "socket": "TR4",
+  "process_node": "14 nm",
+  "cores": 16,
+  "threads": 32,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 3.1,
+  "boost_clock_ghz": 3.6,
+  "l3_cache_mb": null,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR4",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "AMD Eng Sample"
+  ],
+  "notes": "Whitehaven 16C/32T engineering sample (ES2 prefix 2). VideoCardz Eng Sample table 3.1/3.6 GHz.",
+  "source_urls": [
+    "https://videocardz.com/newz/amd-engineering-samples-update",
+    "https://en.wikipedia.org/wiki/Zen_(microarchitecture)"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "amd-2d2701a9uc9f4",
+  "name": "AMD Eng Sample 2D2701A9UC9F4",
+  "manufacturer": "amd",
+  "sample_class": "es",
+  "qspec": null,
+  "opn": "2D2701A9UC9F4",
+  "stepping": null,
+  "cpuid": null,
+  "sample_revision": "es2",
+  "retail_equivalent": null,
+  "first_seen_date": null,
+  "release_date": null,
+  "segment": "hedt",
+  "architecture": "Zen",
+  "socket": "TR4",
+  "process_node": "14 nm",
+  "cores": 12,
+  "threads": 24,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.7,
+  "boost_clock_ghz": 3.2,
+  "l3_cache_mb": null,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR4",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "AMD Eng Sample"
+  ],
+  "notes": "Whitehaven 12C/24T engineering sample (ES2). VideoCardz Eng Sample table 2.7/3.2 GHz on Alienware R3.",
+  "source_urls": [
+    "https://videocardz.com/newz/amd-engineering-samples-update",
+    "https://en.wikipedia.org/wiki/Zen_(microarchitecture)"
+  ]
+}
