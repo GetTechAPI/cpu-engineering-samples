@@ -1,0 +1,39 @@
+{
+  "slug": "amd-100-000000295-40-y",
+  "name": "AMD Eng Sample 100-000000295-40_Y",
+  "manufacturer": "amd",
+  "sample_class": "es",
+  "qspec": null,
+  "opn": "100-000000295-40_Y",
+  "stepping": "A0",
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": null,
+  "first_seen_date": null,
+  "release_date": null,
+  "segment": "laptop",
+  "architecture": "Zen 3",
+  "socket": "FP6",
+  "process_node": "7 nm",
+  "cores": 8,
+  "threads": 16,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": null,
+  "boost_clock_ghz": null,
+  "l3_cache_mb": 16.0,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR4",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "AMD Eng Sample"
+  ],
+  "notes": "Cezanne 8C/16T engineering sample. CPU-Z Validator records AMD Eng Sample 100-000000295-40_Y as Type Engineering Sample on Socket FP6, CZN-A0.",
+  "source_urls": [
+    "https://valid.x86.fr/gnjeaw",
+    "https://en.wikipedia.org/wiki/Zen_3"
+  ]
+}
