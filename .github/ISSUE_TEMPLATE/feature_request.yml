@@ -1,0 +1,23 @@
+name: "Feature request"
+description: Propose a schema, validator, or site change
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / motivation
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: This stays ES-only (QS and retail SKUs belong in TechAPI, not here).
+          required: true
