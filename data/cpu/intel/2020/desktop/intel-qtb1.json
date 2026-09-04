@@ -1,0 +1,41 @@
+{
+  "slug": "intel-qtb1",
+  "name": "Intel QTB1 Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "QTB1",
+  "opn": null,
+  "stepping": null,
+  "cpuid": "A0651",
+  "sample_revision": "es1",
+  "retail_equivalent": "core-i9-10900",
+  "first_seen_date": "2021-06-18",
+  "release_date": null,
+  "segment": "desktop",
+  "architecture": "Comet Lake",
+  "socket": "LGA1200",
+  "process_node": "14 nm",
+  "cores": 10,
+  "threads": 20,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.5,
+  "boost_clock_ghz": 4.6,
+  "l3_cache_mb": 20.0,
+  "tdp_w": 65,
+  "max_tdp_w": null,
+  "integrated_graphics": "UHD 630",
+  "memory_support": "DDR4",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Comet Lake-S engineering sample. Mikon's Hardware tests QTB1 as a locked 10C/20T 65 W sample on LGA1200. CPU-World lists 10 cores with Hyper-Threading, 20 MB L3, and a 2.5 GHz base clock.",
+  "source_urls": [
+    "https://www.youtube.com/watch?v=H2f9E5UiMzY",
+    "https://www.cpu-world.com/sspec/QT/QTB1.html",
+    "https://wccftech.com/intel-10th-gen-comet-lake-s-10-6-core-desktop-cpu-benchmarks-lga-1200-leak/",
+    "https://en.wikipedia.org/wiki/Comet_Lake"
+  ]
+}
