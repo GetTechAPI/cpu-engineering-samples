@@ -1,0 +1,40 @@
+{
+  "slug": "amd-100-000000552-40-y",
+  "name": "AMD Eng Sample 100-000000552-40_Y",
+  "manufacturer": "amd",
+  "sample_class": "es",
+  "qspec": null,
+  "opn": "100-000000552-40_Y",
+  "stepping": null,
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": null,
+  "first_seen_date": null,
+  "release_date": null,
+  "segment": "laptop",
+  "architecture": "Zen 3+",
+  "socket": "FP7",
+  "process_node": "TSMC 6 nm",
+  "cores": 4,
+  "threads": 8,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.9,
+  "boost_clock_ghz": 4.14,
+  "l3_cache_mb": 8,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR5",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "AMD Eng Sample"
+  ],
+  "notes": "Rembrandt 4C/8T engineering sample. Geekbench OPN 100-000000552-40_Y. Entry Ryzen 3 6000-class APU.",
+  "source_urls": [
+    "https://wccftech.com/amds-entry-level-quad-core-rembrandt-apu-spotted-benchmarked-rocks-4-zen-3-3-rdna-2-cores/",
+    "https://www.notebookcheck.net/Mystery-four-core-eight-thread-AMD-Rembrandt-processor-makes-Geekbench-debut.637293.0.html",
+    "https://en.wikipedia.org/wiki/Zen_3"
+  ]
+}
