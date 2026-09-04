@@ -1,0 +1,40 @@
+{
+  "slug": "intel-qrzq",
+  "name": "Intel QRZQ Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "QRZQ",
+  "opn": null,
+  "stepping": "R0",
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": "xeon-e-2276m",
+  "first_seen_date": null,
+  "release_date": null,
+  "segment": "laptop",
+  "architecture": "Coffee Lake",
+  "socket": "LGA1151",
+  "process_node": "14 nm",
+  "cores": 6,
+  "threads": 12,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.8,
+  "boost_clock_ghz": 4.7,
+  "l3_cache_mb": 12.0,
+  "tdp_w": 45,
+  "max_tdp_w": null,
+  "integrated_graphics": "UHD 630",
+  "memory_support": null,
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Coffee Lake R0 engineering sample. 6C/12T Xeon E-2276M-class laptop silicon.",
+  "source_urls": [
+    "https://oldrigrevive.com/lga-1151/modified-cpus/",
+    "https://oldrigrevive.com/lga-1151/complete-cpu-list/",
+    "https://en.wikipedia.org/wiki/Coffee_Lake"
+  ]
+}
