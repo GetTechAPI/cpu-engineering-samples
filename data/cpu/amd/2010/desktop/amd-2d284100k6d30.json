@@ -1,0 +1,41 @@
+{
+  "slug": "amd-2d284100k6d30",
+  "name": "AMD Eng Sample 2D284100K6D30",
+  "manufacturer": "amd",
+  "sample_class": "es",
+  "qspec": null,
+  "opn": "2D284100K6D30",
+  "stepping": "PH-E0",
+  "cpuid": null,
+  "sample_revision": "es2",
+  "retail_equivalent": "phenom-ii-x6-1005t",
+  "first_seen_date": null,
+  "release_date": null,
+  "segment": "desktop",
+  "architecture": "K10",
+  "socket": "AM3",
+  "process_node": "45 nm",
+  "cores": 6,
+  "threads": 6,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.8,
+  "boost_clock_ghz": 3.3,
+  "l3_cache_mb": 6.0,
+  "tdp_w": 93,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR3",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "AMD Eng Sample"
+  ],
+  "notes": "Thuban Phenom II X6 6C/6T engineering sample. CPU-World lists 2D284100K6D30 as an engineering sample with 6 cores / 6 threads at 2.8 GHz, 6 MB L3, Socket AM3. Prefix 2 = ES2.",
+  "source_urls": [
+    "https://www.cpu-world.com/CPUs/K10/AMD-Phenom%20II%20X6%202.8%20GHz%20-%202D284100K6D30.html",
+    "https://www.cpu-world.com/CPUs/K10/TYPE-Phenom%20II%20X6.html",
+    "https://www.cpu-world.com/info/AMD/AMD-ES-part-numbers.html",
+    "https://en.wikipedia.org/wiki/List_of_AMD_Phenom_processors"
+  ]
+}
