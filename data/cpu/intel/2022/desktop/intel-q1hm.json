@@ -1,0 +1,39 @@
+{
+  "slug": "intel-q1hm",
+  "name": "Intel Q1HM Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "Q1HM",
+  "opn": null,
+  "stepping": "B0",
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": "core-i9-13900k",
+  "first_seen_date": null,
+  "release_date": null,
+  "segment": "desktop",
+  "architecture": "Raptor Lake",
+  "socket": "LGA1700",
+  "process_node": "Intel 7",
+  "cores": 24,
+  "threads": 32,
+  "p_cores": 8,
+  "e_cores": 16,
+  "base_clock_ghz": 2.2,
+  "boost_clock_ghz": 5.5,
+  "l3_cache_mb": 36,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR5 / DDR4",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Late ES2. Closer to retail but still an engineering sample.",
+  "source_urls": [
+    "https://oldrigrevive.com/lga1700/full-es-list/",
+    "https://en.wikipedia.org/wiki/Raptor_Lake"
+  ]
+}

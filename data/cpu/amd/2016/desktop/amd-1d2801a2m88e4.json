@@ -1,0 +1,39 @@
+{
+  "slug": "amd-1d2801a2m88e4",
+  "name": "AMD Eng Sample 1D2801A2M88E4",
+  "manufacturer": "amd",
+  "sample_class": "es",
+  "qspec": null,
+  "opn": "1D2801A2M88E4",
+  "stepping": null,
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": "ryzen-7-1800x",
+  "first_seen_date": null,
+  "release_date": null,
+  "segment": "desktop",
+  "architecture": "Zen",
+  "socket": "AM4",
+  "process_node": "14 nm",
+  "cores": 8,
+  "threads": 16,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.8,
+  "boost_clock_ghz": 3.2,
+  "l3_cache_mb": null,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR4",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "AMD Eng Sample"
+  ],
+  "notes": "Summit Ridge ES1. Prefix 1. 2.8/3.2 GHz in Ashes of the Singularity listings.",
+  "source_urls": [
+    "https://www.guru3d.com/story/amd-zen-engineering-sample-shows-promising-perf/",
+    "https://en.wikipedia.org/wiki/Zen_(microarchitecture)"
+  ]
+}

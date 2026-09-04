@@ -1,0 +1,39 @@
+{
+  "slug": "amd-100-000001322-50",
+  "name": "AMD Eng Sample 100-000001322-50",
+  "manufacturer": "amd",
+  "sample_class": "es",
+  "qspec": null,
+  "opn": "100-000001322-50",
+  "stepping": null,
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": "ryzen-7-8845hs",
+  "first_seen_date": null,
+  "release_date": null,
+  "segment": "laptop",
+  "architecture": "Zen 4",
+  "socket": "FP7",
+  "process_node": "TSMC 4 nm",
+  "cores": 8,
+  "threads": 16,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": null,
+  "boost_clock_ghz": null,
+  "l3_cache_mb": null,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "LPDDR5X / DDR5",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "AMD Eng Sample"
+  ],
+  "notes": "Hawk Point / 8845HS engineering sample per CPU-World identification cited on AMD forums.",
+  "source_urls": [
+    "https://pcforum.amd.com/s/question/0D5Pd00000v5McEKAU/amd-eng-sample",
+    "https://en.wikipedia.org/wiki/Zen_4"
+  ]
+}
