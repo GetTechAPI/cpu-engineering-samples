@@ -1,0 +1,39 @@
+{
+  "slug": "intel-qvte",
+  "name": "Intel QVTE Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "QVTE",
+  "opn": null,
+  "stepping": null,
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": "core-i9-11900",
+  "first_seen_date": "2021-01-01",
+  "release_date": null,
+  "segment": "desktop",
+  "architecture": "Rocket Lake",
+  "socket": "LGA1200",
+  "process_node": "14 nm",
+  "cores": 8,
+  "threads": 16,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 1.8,
+  "boost_clock_ghz": 4.5,
+  "l3_cache_mb": 16.0,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": "Intel Xe-LP",
+  "memory_support": "DDR4",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Rocket Lake-S engineering sample. Tom's Hardware lists QVTE as an i9-11900-class ES at 1.8 GHz base and 4.5 GHz boost. Rocket Lake i9 desktop silicon is 8C/16T with 16 MB L3.",
+  "source_urls": [
+    "https://www.tomshardware.com/news/rocket-lake-engineering-samples-benchmarked",
+    "https://en.wikipedia.org/wiki/Rocket_Lake"
+  ]
+}
