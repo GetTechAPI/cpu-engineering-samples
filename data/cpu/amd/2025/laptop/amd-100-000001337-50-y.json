@@ -1,0 +1,39 @@
+{
+  "slug": "amd-100-000001337-50-y",
+  "name": "AMD Eng Sample 100-000001337-50_Y",
+  "manufacturer": "amd",
+  "sample_class": "es",
+  "qspec": null,
+  "opn": "100-000001337-50_Y",
+  "stepping": null,
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": null,
+  "first_seen_date": "2025-10-25",
+  "release_date": null,
+  "segment": "laptop",
+  "architecture": "Zen 5",
+  "socket": null,
+  "process_node": null,
+  "cores": 6,
+  "threads": 12,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": null,
+  "boost_clock_ghz": null,
+  "l3_cache_mb": null,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR5",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "AMD Eng Sample"
+  ],
+  "notes": "Zen 5 6C/12T notebook engineering sample. BAPCo CrossMark lists AMD Eng Sample 100-000001337-50_Y with 6 cores and 12 logical processors.",
+  "source_urls": [
+    "https://results.bapco.com/performance/AMD%20Eng%20Sample%3A%20100-000001337-50_Y",
+    "https://en.wikipedia.org/wiki/Zen_5"
+  ]
+}
