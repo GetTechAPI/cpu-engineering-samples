@@ -33,3 +33,4 @@ site/catalog.json
 
 # Local GitHub setup helpers (not part of the catalog)
 .github-setup/
+tests/.tmp-from-table/

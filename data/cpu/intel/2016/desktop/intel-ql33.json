@@ -1,0 +1,39 @@
+{
+  "slug": "intel-ql33",
+  "name": "Intel QL33 Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "QL33",
+  "opn": null,
+  "stepping": "A0",
+  "cpuid": "506E8",
+  "sample_revision": "es1",
+  "retail_equivalent": "xeon-e3-1245-v6",
+  "first_seen_date": null,
+  "release_date": null,
+  "segment": "desktop",
+  "architecture": "Kaby Lake",
+  "socket": "LGA1151",
+  "process_node": "14 nm",
+  "cores": 4,
+  "threads": 8,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 3.5,
+  "boost_clock_ghz": 3.9,
+  "l3_cache_mb": null,
+  "tdp_w": 78,
+  "max_tdp_w": null,
+  "integrated_graphics": "HD 630",
+  "memory_support": null,
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Kaby Lake A0 engineering sample (QL33).",
+  "source_urls": [
+    "https://oldrigrevive.com/lga-1151/complete-cpu-list/",
+    "https://en.wikipedia.org/wiki/Kaby_Lake"
+  ]
+}

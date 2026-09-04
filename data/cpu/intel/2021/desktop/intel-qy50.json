@@ -1,0 +1,39 @@
+{
+  "slug": "intel-qy50",
+  "name": "Intel QY50 Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "QY50",
+  "opn": null,
+  "stepping": "G0",
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": "core-i5-12500",
+  "first_seen_date": null,
+  "release_date": null,
+  "segment": "desktop",
+  "architecture": "Alder Lake",
+  "socket": "LGA1700",
+  "process_node": "Intel 7",
+  "cores": 6,
+  "threads": 12,
+  "p_cores": 6,
+  "e_cores": 0,
+  "base_clock_ghz": 2.4,
+  "boost_clock_ghz": 4.3,
+  "l3_cache_mb": null,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR5 / DDR4",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Native 6-core G0 ES. No CPU PCIe 5.0 slot.",
+  "source_urls": [
+    "https://oldrigrevive.com/lga1700/full-es-list/",
+    "https://en.wikipedia.org/wiki/Alder_Lake"
+  ]
+}

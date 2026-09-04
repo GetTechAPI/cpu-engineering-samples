@@ -1,0 +1,39 @@
+{
+  "slug": "intel-qtj0",
+  "name": "Intel QTJ0 Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "QTJ0",
+  "opn": null,
+  "stepping": "R0",
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": "core-i9-9880hk",
+  "first_seen_date": null,
+  "release_date": null,
+  "segment": "laptop",
+  "architecture": "Coffee Lake",
+  "socket": "LGA1151",
+  "process_node": "14 nm",
+  "cores": 8,
+  "threads": 16,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.8,
+  "boost_clock_ghz": 4.7,
+  "l3_cache_mb": 16,
+  "tdp_w": 65,
+  "max_tdp_w": null,
+  "integrated_graphics": "UHD 630",
+  "memory_support": null,
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Coffee Lake R0 engineering sample (QTJ0).",
+  "source_urls": [
+    "https://oldrigrevive.com/lga-1151/complete-cpu-list/",
+    "https://en.wikipedia.org/wiki/Coffee_Lake"
+  ]
+}

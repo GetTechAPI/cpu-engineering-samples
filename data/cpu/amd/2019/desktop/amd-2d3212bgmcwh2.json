@@ -1,0 +1,39 @@
+{
+  "slug": "amd-2d3212bgmcwh2",
+  "name": "AMD Eng Sample 2D3212BGMCWH2",
+  "manufacturer": "amd",
+  "sample_class": "es",
+  "qspec": null,
+  "opn": "2D3212BGMCWH2",
+  "stepping": null,
+  "cpuid": null,
+  "sample_revision": "es2",
+  "retail_equivalent": "ryzen-9-3900x",
+  "first_seen_date": null,
+  "release_date": null,
+  "segment": "desktop",
+  "architecture": "Zen 2",
+  "socket": "AM4",
+  "process_node": "TSMC 7 nm",
+  "cores": 12,
+  "threads": 24,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 3.4,
+  "boost_clock_ghz": 3.7,
+  "l3_cache_mb": null,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR4",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "AMD Eng Sample"
+  ],
+  "notes": "Matisse 12C ES2. UserBenchmark OPN 2D3212BGMCWH2_37/34_N.",
+  "source_urls": [
+    "https://www.techspot.com/news/78452-amd-next-12-core-cpu-appears-benchmark-database.html",
+    "https://en.wikipedia.org/wiki/Zen_2"
+  ]
+}

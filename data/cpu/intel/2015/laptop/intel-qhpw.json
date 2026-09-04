@@ -1,0 +1,39 @@
+{
+  "slug": "intel-qhpw",
+  "name": "Intel QHPW Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "QHPW",
+  "opn": null,
+  "stepping": "Q0",
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": null,
+  "first_seen_date": null,
+  "release_date": null,
+  "segment": "laptop",
+  "architecture": "Skylake",
+  "socket": "LGA1151",
+  "process_node": "14 nm",
+  "cores": 4,
+  "threads": 8,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.2,
+  "boost_clock_ghz": 3.0,
+  "l3_cache_mb": 8,
+  "tdp_w": 45,
+  "max_tdp_w": null,
+  "integrated_graphics": "HD 530",
+  "memory_support": null,
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Skylake Q0 engineering sample (QHPW).",
+  "source_urls": [
+    "https://oldrigrevive.com/lga-1151/complete-cpu-list/",
+    "https://en.wikipedia.org/wiki/Skylake_(microarchitecture)"
+  ]
+}

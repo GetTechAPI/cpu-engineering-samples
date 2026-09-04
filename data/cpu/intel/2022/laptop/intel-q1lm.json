@@ -1,0 +1,39 @@
+{
+  "slug": "intel-q1lm",
+  "name": "Intel Q1LM Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "Q1LM",
+  "opn": null,
+  "stepping": "B0",
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": "core-i9-13980hx",
+  "first_seen_date": null,
+  "release_date": null,
+  "segment": "laptop",
+  "architecture": "Raptor Lake",
+  "socket": "BGA1964",
+  "process_node": "Intel 7",
+  "cores": 24,
+  "threads": 32,
+  "p_cores": 8,
+  "e_cores": 16,
+  "base_clock_ghz": null,
+  "boost_clock_ghz": 5.1,
+  "l3_cache_mb": 36,
+  "tdp_w": 55,
+  "max_tdp_w": null,
+  "integrated_graphics": "Intel UHD Graphics",
+  "memory_support": "DDR5 / DDR4",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Raptor Lake-HX ES flagship sample.",
+  "source_urls": [
+    "https://oldrigrevive.com/lga1700/mutant-hx-processors-guide/",
+    "https://en.wikipedia.org/wiki/Raptor_Lake"
+  ]
+}

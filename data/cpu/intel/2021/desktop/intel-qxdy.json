@@ -1,0 +1,39 @@
+{
+  "slug": "intel-qxdy",
+  "name": "Intel QXDY Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "QXDY",
+  "opn": null,
+  "stepping": "B0",
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": "core-i5-12600",
+  "first_seen_date": null,
+  "release_date": null,
+  "segment": "desktop",
+  "architecture": "Alder Lake",
+  "socket": "LGA1700",
+  "process_node": "Intel 7",
+  "cores": 6,
+  "threads": 12,
+  "p_cores": 6,
+  "e_cores": 0,
+  "base_clock_ghz": 1.4,
+  "boost_clock_ghz": 4.0,
+  "l3_cache_mb": null,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR5 / DDR4",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Large B0/A0 die with E-cores disabled. Runs hotter than retail i5.",
+  "source_urls": [
+    "https://oldrigrevive.com/lga1700/full-es-list/",
+    "https://en.wikipedia.org/wiki/Alder_Lake"
+  ]
+}

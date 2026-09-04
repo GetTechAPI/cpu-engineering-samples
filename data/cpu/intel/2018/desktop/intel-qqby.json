@@ -1,0 +1,39 @@
+{
+  "slug": "intel-qqby",
+  "name": "Intel QQBY Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "QQBY",
+  "opn": null,
+  "stepping": "P0",
+  "cpuid": "906EC",
+  "sample_revision": "es1",
+  "retail_equivalent": "core-i9-9900k",
+  "first_seen_date": null,
+  "release_date": null,
+  "segment": "desktop",
+  "architecture": "Coffee Lake",
+  "socket": "LGA1151",
+  "process_node": "14 nm",
+  "cores": 8,
+  "threads": 16,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 3.1,
+  "boost_clock_ghz": 4.5,
+  "l3_cache_mb": null,
+  "tdp_w": 95,
+  "max_tdp_w": null,
+  "integrated_graphics": "UHD 630",
+  "memory_support": null,
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Coffee Lake P0 ES. Early P0 PCIe bug on some chips.",
+  "source_urls": [
+    "https://oldrigrevive.com/lga-1151/complete-cpu-list/",
+    "https://en.wikipedia.org/wiki/Coffee_Lake"
+  ]
+}
