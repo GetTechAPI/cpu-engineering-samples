@@ -1,0 +1,39 @@
+{
+  "slug": "intel-q46w",
+  "name": "Intel Q46W Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "Q46W",
+  "opn": null,
+  "stepping": null,
+  "cpuid": null,
+  "sample_revision": "es2",
+  "retail_equivalent": null,
+  "first_seen_date": "2025-03-27",
+  "release_date": null,
+  "segment": "desktop",
+  "architecture": "Meteor Lake",
+  "socket": "LGA1851",
+  "process_node": "Intel 4",
+  "cores": 14,
+  "threads": 14,
+  "p_cores": 6,
+  "e_cores": 8,
+  "base_clock_ghz": 2.8,
+  "boost_clock_ghz": 4.5,
+  "l3_cache_mb": null,
+  "tdp_w": 65,
+  "max_tdp_w": null,
+  "integrated_graphics": "Intel Xe 4 Xe-cores",
+  "memory_support": "DDR5",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Meteor Lake-S desktop engineering sample. 6P+8E without Hyper-Threading. Cancelled desktop SKU; Intel Confidential Q46W. Reported ES2.",
+  "source_urls": [
+    "https://www.techpowerup.com/334688/intel-q46w-engineering-sample-seems-to-be-meteor-lake-s-desktop-cpu-minus-hyper-threading",
+    "https://en.wikipedia.org/wiki/Meteor_Lake"
+  ]
+}
