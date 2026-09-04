@@ -1,0 +1,39 @@
+{
+  "slug": "intel-qde8",
+  "name": "Intel QDE8 Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "QDE8",
+  "opn": null,
+  "stepping": "B0",
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": null,
+  "first_seen_date": null,
+  "release_date": null,
+  "segment": "desktop",
+  "architecture": "Haswell",
+  "socket": "LGA1150",
+  "process_node": "22 nm",
+  "cores": 4,
+  "threads": 8,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.6,
+  "boost_clock_ghz": 2.6,
+  "l3_cache_mb": null,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR3",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Haswell B0 engineering sample. No product name; multiplier does not go over 30x.",
+  "source_urls": [
+    "https://community.hwbot.org/topic/74999-haswell-q-spec-for-engineering-samples/",
+    "https://en.wikipedia.org/wiki/Haswell_(microarchitecture)"
+  ]
+}
