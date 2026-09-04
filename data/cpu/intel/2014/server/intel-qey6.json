@@ -1,0 +1,39 @@
+{
+  "slug": "intel-qey6",
+  "name": "Intel QEY6 Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "QEY6",
+  "opn": null,
+  "stepping": "B0",
+  "cpuid": "306F1",
+  "sample_revision": "es1",
+  "retail_equivalent": null,
+  "first_seen_date": null,
+  "release_date": null,
+  "segment": "server",
+  "architecture": "Haswell-EP",
+  "socket": "LGA2011-3",
+  "process_node": "22 nm",
+  "cores": 14,
+  "threads": 28,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.2,
+  "boost_clock_ghz": null,
+  "l3_cache_mb": 35.0,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR4",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Haswell-EP B0 engineering sample. 14C/28T at 2.2 GHz with 35 MB L3. CPU-World lists QEY6 as an engineering sample with no retail SKU.",
+  "source_urls": [
+    "https://www.cpu-world.com/sspec/QE/QEY6.html",
+    "https://en.wikipedia.org/wiki/Haswell_(microarchitecture)"
+  ]
+}
