@@ -1,0 +1,39 @@
+{
+  "slug": "amd-100-000001713-21-n",
+  "name": "AMD Eng Sample 100-000001713-21_N",
+  "manufacturer": "amd",
+  "sample_class": "es",
+  "qspec": null,
+  "opn": "100-000001713-21_N",
+  "stepping": null,
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": null,
+  "first_seen_date": "2026-03-19",
+  "release_date": null,
+  "segment": "laptop",
+  "architecture": "Zen 6",
+  "socket": "FP10",
+  "process_node": "TSMC N2P",
+  "cores": 10,
+  "threads": 20,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.4,
+  "boost_clock_ghz": null,
+  "l3_cache_mb": 32,
+  "tdp_w": 28,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "LPDDR5X",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "AMD Eng Sample"
+  ],
+  "notes": "Medusa Point 10C/20T engineering sample. Geekbench Eng Sample 100-000001713-21_N at 2.4 GHz base.",
+  "source_urls": [
+    "https://www.techpowerup.com/347513/amd-medusa-point-apu-early-benchmarks-match-strix-point-at-half-the-clock-speed",
+    "https://en.wikipedia.org/wiki/Zen_6"
+  ]
+}

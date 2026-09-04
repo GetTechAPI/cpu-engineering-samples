@@ -1,0 +1,39 @@
+{
+  "slug": "amd-100-000001713-31",
+  "name": "AMD Eng Sample 100-000001713-31",
+  "manufacturer": "amd",
+  "sample_class": "es",
+  "qspec": null,
+  "opn": "100-000001713-31",
+  "stepping": null,
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": null,
+  "first_seen_date": "2026-03-16",
+  "release_date": null,
+  "segment": "laptop",
+  "architecture": "Zen 6",
+  "socket": "FP10",
+  "process_node": "TSMC N2P",
+  "cores": 10,
+  "threads": 20,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.4,
+  "boost_clock_ghz": null,
+  "l3_cache_mb": 32,
+  "tdp_w": 28,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "LPDDR5X",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "AMD Eng Sample"
+  ],
+  "notes": "Medusa Point 10C/20T engineering sample OPN 100-000001713-31 on Plum-MDS1. Early clocks ~1.3-2 GHz in-run.",
+  "source_urls": [
+    "https://www.techpowerup.com/347418/amd-zen-6-medusa-point-cpu-spotted-on-geekbench-with-10-cores-32-mb-l3-cache",
+    "https://en.wikipedia.org/wiki/Zen_6"
+  ]
+}
