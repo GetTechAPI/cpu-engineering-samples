@@ -1,0 +1,14 @@
+[project]
+name = "cpu-engineering-samples"
+version = "0.1.0"
+description = "Engineering-sample CPU catalog. QS and retail SKUs stay in TechAPI."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

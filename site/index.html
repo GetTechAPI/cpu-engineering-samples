@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>cpu-engineering-samples — ES CPU catalog</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #0f1419;
+        --fg: #e7ecf3;
+        --muted: #9aa7b5;
+        --card: #1a222c;
+        --accent: #6cb6ff;
+        --warn: #e6b450;
+      }
+      body {
+        margin: 0;
+        font-family: ui-sans-serif, system-ui, sans-serif;
+        background: var(--bg);
+        color: var(--fg);
+        line-height: 1.5;
+      }
+      main {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 2.5rem 1.25rem 4rem;
+      }
+      h1 {
+        font-size: 1.75rem;
+        margin: 0 0 0.5rem;
+      }
+      .lede {
+        color: var(--muted);
+        margin: 0 0 1.5rem;
+      }
+      .banner {
+        background: #2a2110;
+        color: var(--warn);
+        padding: 0.85rem 1rem;
+        border-radius: 8px;
+        margin-bottom: 1.5rem;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        background: var(--card);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      th,
+      td {
+        text-align: left;
+        padding: 0.7rem 0.85rem;
+        vertical-align: top;
+        font-size: 0.95rem;
+      }
+      th {
+        color: var(--muted);
+        font-weight: 600;
+        border-bottom: 1px solid #2c3846;
+      }
+      tr + tr td {
+        border-top: 1px solid #2c3846;
+      }
+      a {
+        color: var(--accent);
+      }
+      code {
+        font-size: 0.85em;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Engineering-sample CPUs</h1>
+      <p class="lede">
+        Prototype catalog for
+        <a href="https://github.com/GetTechAPI">GetTechAPI</a>. Retail and QS
+        SKUs stay in
+        <a href="https://github.com/GetTechAPI/TechAPI">TechAPI</a>.
+      </p>
+      <p class="banner">
+        ES processors are pre-production parts. They are not for sale, not
+        warranted, and this list is not an Intel or AMD product. Records cite
+        public third-party sources only.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Sample</th>
+            <th>ID</th>
+            <th>Cores</th>
+            <th>Retail equivalent</th>
+            <th>Sources</th>
+          </tr>
+        </thead>
+        <tbody id="rows">
+          <tr>
+            <td colspan="5">Loading catalog…</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <script>
+      function ident(row) {
+        return row.qspec || row.opn || row.slug;
+      }
+      fetch("catalog.json")
+        .then((r) => r.json())
+        .then((rows) => {
+          const body = document.getElementById("rows");
+          body.innerHTML = rows
+            .map((row) => {
+              const sources = (row.source_urls || [])
+                .map((u, i) => `<a href="${u}">[${i + 1}]</a>`)
+                .join(" ");
+              return `<tr>
+                <td><strong>${row.name}</strong><br /><code>${row.slug}</code></td>
+                <td><code>${ident(row)}</code><br />${row.architecture || ""} ${row.stepping || ""}</td>
+                <td>${row.cores} / ${row.threads}</td>
+                <td><code>${row.retail_equivalent || "—"}</code></td>
+                <td>${sources}</td>
+              </tr>`;
+            })
+            .join("");
+        })
+        .catch(() => {
+          document.getElementById("rows").innerHTML =
+            "<tr><td colspan='5'>Could not load catalog.json</td></tr>";
+        });
+    </script>
+  </body>
+</html>

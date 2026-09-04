@@ -1,0 +1,41 @@
+name: "ES data addition"
+description: Request a new engineering-sample CPU record
+labels: ["data", "enhancement"]
+body:
+  - type: dropdown
+    id: sample_class
+    attributes:
+      label: Sample class
+      options:
+        - es
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: identifier
+    attributes:
+      label: Identifier (Intel Q-spec or AMD OPN)
+      placeholder: "QXLB or 100-000000665-21_N"
+    validations:
+      required: true
+  - type: input
+    id: manufacturer
+    attributes:
+      label: Manufacturer
+      placeholder: "intel or amd"
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Public source URLs (at least one)
+      description: Vendor leaks on public pages, CPU-World, news, benchmark listings. No NDA datasheets.
+    validations:
+      required: true
+  - type: checkboxes
+    id: not_qs
+    attributes:
+      label: Scope
+      options:
+        - label: This is an engineering sample (ES), not QS and not a retail SKU.
+          required: true

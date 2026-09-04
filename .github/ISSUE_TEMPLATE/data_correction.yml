@@ -1,0 +1,24 @@
+name: "ES data correction"
+description: Correct an existing engineering-sample record
+labels: ["data"]
+body:
+  - type: input
+    id: slug
+    attributes:
+      label: Record slug
+      placeholder: "intel-qxlb"
+    validations:
+      required: true
+  - type: input
+    id: field
+    attributes:
+      label: Field to correct
+      placeholder: "boost_clock_ghz"
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Current value to correct value (with public source)
+    validations:
+      required: true
