@@ -1,0 +1,39 @@
+{
+  "slug": "intel-qxq3",
+  "name": "Intel QXQ3 Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "QXQ3",
+  "opn": null,
+  "stepping": "B0",
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": "core-i9-12900",
+  "first_seen_date": "2021-10-01",
+  "release_date": null,
+  "segment": "desktop",
+  "architecture": "Alder Lake",
+  "socket": "LGA1700",
+  "process_node": "Intel 7",
+  "cores": 16,
+  "threads": 24,
+  "p_cores": 8,
+  "e_cores": 8,
+  "base_clock_ghz": 1.2,
+  "boost_clock_ghz": 4.6,
+  "l3_cache_mb": 30.0,
+  "tdp_w": 65,
+  "max_tdp_w": null,
+  "integrated_graphics": "Intel UHD Graphics",
+  "memory_support": "DDR5 / DDR4",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Locked Alder Lake ES with a hard 65 W TDP cap. Mapped to Core i9-12900, not the K SKU.",
+  "source_urls": [
+    "https://oldrigrevive.com/es/lga_1700/lista-completa-es/",
+    "https://en.wikipedia.org/wiki/Alder_Lake"
+  ]
+}

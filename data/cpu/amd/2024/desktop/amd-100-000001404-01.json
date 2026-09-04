@@ -1,0 +1,39 @@
+{
+  "slug": "amd-100-000001404-01",
+  "name": "AMD Eng Sample 100-000001404-01",
+  "manufacturer": "amd",
+  "sample_class": "es",
+  "qspec": null,
+  "opn": "100-000001404-01",
+  "stepping": "B0",
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": "ryzen-7-9700x",
+  "first_seen_date": "2024-03-28",
+  "release_date": null,
+  "segment": "desktop",
+  "architecture": "Zen 5",
+  "socket": "AM5",
+  "process_node": "TSMC N4P",
+  "cores": 8,
+  "threads": 16,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": null,
+  "boost_clock_ghz": null,
+  "l3_cache_mb": null,
+  "tdp_w": 170,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR5",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "AMD Eng Sample"
+  ],
+  "notes": "Granite Ridge 8C/16T B0 engineering sample from shipping manifests. 170 W TDP listing. Not a retail SKU.",
+  "source_urls": [
+    "https://www.techpowerup.com/320980/alleged-amd-ryzen-granite-ridge-engineering-samples-pop-up-in-shipping-manifests",
+    "https://en.wikipedia.org/wiki/Zen_5"
+  ]
+}

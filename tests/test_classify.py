@@ -119,10 +119,14 @@ def test_declared_retail_wins() -> None:
     assert result.sample_class == "retail"
 
 
-def test_seed_qxlb_file_classifies_es() -> None:
+def test_every_catalog_record_classifies_as_es() -> None:
     from pathlib import Path
     import json
 
-    path = Path("data/cpu/intel/2021/desktop/intel-qxlb.json")
-    rec = json.loads(path.read_text(encoding="utf-8"))
-    assert classify(rec).sample_class == "es"
+    root = Path("data/cpu")
+    files = sorted(root.rglob("*.json"))
+    assert files, "catalog is empty"
+    for path in files:
+        rec = json.loads(path.read_text(encoding="utf-8"))
+        result = classify(rec)
+        assert result.sample_class == "es", f"{path}: {result.sample_class} {result.reasons}"
