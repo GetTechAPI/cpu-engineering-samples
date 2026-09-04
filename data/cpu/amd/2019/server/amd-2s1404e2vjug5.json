@@ -1,0 +1,43 @@
+{
+  "slug": "amd-2s1404e2vjug5",
+  "name": "AMD Eng Sample 2S1404E2VJUG5",
+  "manufacturer": "amd",
+  "sample_class": "es",
+  "qspec": null,
+  "opn": "2S1404E2VJUG5",
+  "stepping": null,
+  "cpuid": null,
+  "sample_revision": "es2",
+  "retail_equivalent": "epyc-7742",
+  "first_seen_date": null,
+  "release_date": null,
+  "segment": "server",
+  "architecture": "Zen 2",
+  "socket": "SP3",
+  "process_node": "TSMC 7 nm",
+  "cores": 64,
+  "threads": 128,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 1.4,
+  "boost_clock_ghz": 2.0,
+  "l3_cache_mb": 256.0,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR4",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "AMD Eng Sample"
+  ],
+  "notes": "Rome EPYC 7002 64C/128T engineering sample. CPU-World lists 2S1404E2VJUG5 as an engineering sample with 64 cores / 128 threads, 1.4 GHz base, 256 MB L3, Socket SP3. XMRig lists AMD Eng Sample 2S1404E2VJUG5_20/14_N as 64 cores / 128 threads. Prefix 2 = ES2.",
+  "source_urls": [
+    "https://www.cpu-world.com/CPUs/Zen/AMD-EPYC%201.4%20GHz%20-%202S1404E2VJUG5.html",
+    "https://www.cpu-world.com/CPUs/Zen/TYPE-EPYC%207002%20series.html",
+    "https://www.cpu-world.com/Compare/457/AMD_EPYC_1.4_GHz_(2S1404E2VJUG5)_vs_AMD_Ryzen_9_9950X.html",
+    "https://xmrig.com/benchmark/2dssKo",
+    "https://en.wikipedia.org/wiki/Zen_2",
+    "https://en.wikipedia.org/wiki/List_of_AMD_Epyc_processors"
+  ]
+}
