@@ -1,0 +1,39 @@
+{
+  "slug": "intel-qh8e",
+  "name": "Intel QH8E Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "QH8E",
+  "opn": null,
+  "stepping": "A0",
+  "cpuid": "506E0",
+  "sample_revision": "es1",
+  "retail_equivalent": null,
+  "first_seen_date": "2015-01-01",
+  "release_date": null,
+  "segment": "desktop",
+  "architecture": "Skylake",
+  "socket": "LGA1151",
+  "process_node": "14 nm",
+  "cores": 4,
+  "threads": 8,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.2,
+  "boost_clock_ghz": 2.6,
+  "l3_cache_mb": null,
+  "tdp_w": 95,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR4",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Skylake A0 4C/8T engineering sample. Early stepping, BCLK overclock only.",
+  "source_urls": [
+    "https://oldrigrevive.com/lga-1151/complete-cpu-list/",
+    "https://en.wikipedia.org/wiki/Skylake_(microarchitecture)"
+  ]
+}
