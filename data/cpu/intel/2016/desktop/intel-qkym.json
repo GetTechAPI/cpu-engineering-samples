@@ -1,0 +1,39 @@
+{
+  "slug": "intel-qkym",
+  "name": "Intel QKYM Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "QKYM",
+  "opn": null,
+  "stepping": "A0",
+  "cpuid": "506E8",
+  "sample_revision": "es1",
+  "retail_equivalent": "core-i5-7400",
+  "first_seen_date": null,
+  "release_date": null,
+  "segment": "desktop",
+  "architecture": "Kaby Lake",
+  "socket": "LGA1151",
+  "process_node": "14 nm",
+  "cores": 4,
+  "threads": 4,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.7,
+  "boost_clock_ghz": 3.3,
+  "l3_cache_mb": null,
+  "tdp_w": 65,
+  "max_tdp_w": null,
+  "integrated_graphics": "HD 630",
+  "memory_support": null,
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Kaby Lake A0 engineering sample (QKYM).",
+  "source_urls": [
+    "https://oldrigrevive.com/lga-1151/complete-cpu-list/",
+    "https://en.wikipedia.org/wiki/Kaby_Lake"
+  ]
+}

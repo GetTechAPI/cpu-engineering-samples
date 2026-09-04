@@ -1,0 +1,39 @@
+{
+  "slug": "intel-q0pv",
+  "name": "Intel Q0PV Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "Q0PV",
+  "opn": null,
+  "stepping": "B0",
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": "core-i9-13900t",
+  "first_seen_date": null,
+  "release_date": null,
+  "segment": "desktop",
+  "architecture": "Raptor Lake",
+  "socket": "LGA1700",
+  "process_node": "Intel 7",
+  "cores": 24,
+  "threads": 32,
+  "p_cores": 8,
+  "e_cores": 16,
+  "base_clock_ghz": 1.0,
+  "boost_clock_ghz": 4.7,
+  "l3_cache_mb": 36,
+  "tdp_w": 35,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR5 / DDR4",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "T-series ES locked to 35 W TDP.",
+  "source_urls": [
+    "https://oldrigrevive.com/lga1700/full-es-list/",
+    "https://en.wikipedia.org/wiki/Raptor_Lake"
+  ]
+}

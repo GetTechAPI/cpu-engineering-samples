@@ -1,0 +1,39 @@
+{
+  "slug": "intel-ql2x",
+  "name": "Intel QL2X Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "QL2X",
+  "opn": null,
+  "stepping": "A0",
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": "core-i7-7820hk",
+  "first_seen_date": null,
+  "release_date": null,
+  "segment": "laptop",
+  "architecture": "Kaby Lake",
+  "socket": "LGA1151",
+  "process_node": "14 nm",
+  "cores": 4,
+  "threads": 8,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.7,
+  "boost_clock_ghz": 3.8,
+  "l3_cache_mb": 8,
+  "tdp_w": 45,
+  "max_tdp_w": null,
+  "integrated_graphics": "HD 630",
+  "memory_support": null,
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Kaby Lake A0 engineering sample (QL2X).",
+  "source_urls": [
+    "https://oldrigrevive.com/lga-1151/complete-cpu-list/",
+    "https://en.wikipedia.org/wiki/Kaby_Lake"
+  ]
+}
