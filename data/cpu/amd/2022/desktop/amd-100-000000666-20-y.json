@@ -1,0 +1,39 @@
+{
+  "slug": "amd-100-000000666-20-y",
+  "name": "AMD Eng Sample 100-000000666-20_Y",
+  "manufacturer": "amd",
+  "sample_class": "es",
+  "qspec": null,
+  "opn": "100-000000666-20_Y",
+  "stepping": null,
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": "ryzen-7-7700x",
+  "first_seen_date": "2022-05-09",
+  "release_date": null,
+  "segment": "desktop",
+  "architecture": "Zen 4",
+  "socket": "AM5",
+  "process_node": "TSMC N5",
+  "cores": 8,
+  "threads": 16,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": null,
+  "boost_clock_ghz": 5.21,
+  "l3_cache_mb": null,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR5",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "AMD Eng Sample"
+  ],
+  "notes": "Raphael 8C/16T engineering sample. PC Gamer identifies AMD Eng Sample 100-000000666-20_Y on OpenBenchmarking with a 5.21 GHz test clock and GFX1036 iGPU.",
+  "source_urls": [
+    "https://www.pcgamer.com/52ghz-amd-zen-4-test-cpu-pops-up-in-database-and-then-vanishes/",
+    "https://en.wikipedia.org/wiki/Zen_4"
+  ]
+}
