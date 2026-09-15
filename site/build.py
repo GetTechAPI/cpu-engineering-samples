@@ -3,12 +3,28 @@
 from __future__ import annotations
 
 import json
+import subprocess
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "cpu"
 OUT = Path(__file__).resolve().parent / "catalog.json"
+HISTORY = Path(__file__).resolve().parent / "history.json"
+
+
+def git(*args: str) -> str:
+    return subprocess.run(["git", *args], cwd=ROOT, check=True, capture_output=True, text=True).stdout
+
+
+def build_history() -> list[dict]:
+    """Record count after every commit that touched data/cpu (needs full clone)."""
+    points = []
+    for line in git("log", "--reverse", "--format=%H %cI", "--", "data/cpu").splitlines():
+        sha, date = line.split(" ", 1)
+        names = git("ls-tree", "-r", "--name-only", sha, "--", "data/cpu").splitlines()
+        points.append({"sha": sha, "date": date, "count": sum(n.endswith(".json") for n in names)})
+    return points
 
 
 def main() -> int:
@@ -34,6 +50,9 @@ def main() -> int:
         )
     OUT.write_text(json.dumps(records, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {OUT} ({len(records)} ES records)")
+    history = build_history()
+    HISTORY.write_text(json.dumps({"points": history}, indent=2) + "\n", encoding="utf-8")
+    print(f"wrote {HISTORY} ({len(history)} points)")
     return 0
 
 
