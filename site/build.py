@@ -5,12 +5,14 @@ from __future__ import annotations
 import json
 import subprocess
 import sys
+from datetime import UTC, datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "cpu"
 OUT = Path(__file__).resolve().parent / "catalog.json"
 HISTORY = Path(__file__).resolve().parent / "history.json"
+SUMMARY = Path(__file__).resolve().parent / "summary.json"
 
 
 def git(*args: str) -> str:
@@ -50,6 +52,15 @@ def main() -> int:
         )
     OUT.write_text(json.dumps(records, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {OUT} ({len(records)} ES records)")
+    # TechAPI's homepage counts satellites from summary.json rather than by
+    # downloading a record listing — game-catalog is ~1M records, so reading
+    # a catalog's .length stopped being viable there.
+    summary = {
+        "count": len(records),
+        "generated_at": datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
+    }
+    SUMMARY.write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
+    print(f"wrote {SUMMARY} ({len(records)} records)")
     history = build_history()
     HISTORY.write_text(json.dumps({"points": history}, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {HISTORY} ({len(history)} points)")
