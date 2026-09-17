@@ -31,6 +31,7 @@ coverage.xml
 # Generated site catalog (rebuilt in CI)
 site/catalog.json
 site/history.json
+site/summary.json
 
 # Local GitHub setup helpers (not part of the catalog)
 .github-setup/
