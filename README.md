@@ -58,6 +58,10 @@ Crawlers come later. This classifier is the gate.
 
 A release is a PR from `develop` to `main`. Open work PRs **against `develop`**.
 
+## Final check
+
+Important PRs get one final-check comment from **TechEngineBot**: every release PR into `main`, and any PR labeled `final-check`. The comment reports the validator and test results plus the records the PR adds, modifies, or removes. It is edited in place on each push, and the job fails when a check fails. The comment is posted with the `TECHENGINEBOT_TOKEN` secret (a TechEngineBot token, never a personal one); without it the job still runs and skips the comment.
+
 ## Contributing
 
 Open a PR against `develop` with a new/updated JSON file. `sample_class` must be `es`. Include `qspec` (Intel) and/or `opn` (AMD) and at least one public `source_url`.
