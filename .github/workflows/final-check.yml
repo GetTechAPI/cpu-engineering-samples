@@ -51,6 +51,7 @@ jobs:
           GH_TOKEN: ${{ secrets.TECHENGINEBOT_TOKEN }}
           REPO: ${{ github.repository }}
           PR: ${{ github.event.pull_request.number }}
+        shell: bash  # -eo pipefail: a failed lookup must stop here, not feed an error body into PATCH
         run: |
           # Bot account only: never fall back to a personal token.
           if [ -z "$GH_TOKEN" ]; then
