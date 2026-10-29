@@ -1,0 +1,38 @@
+{
+  "slug": "amd-100-000000997-01",
+  "name": "AMD 100-000000997-01 Engineering Sample",
+  "manufacturer": "amd",
+  "sample_class": "es",
+  "qspec": null,
+  "opn": "100-000000997-01",
+  "stepping": null,
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": null,
+  "first_seen_date": "2022-08-16",
+  "release_date": null,
+  "segment": "server",
+  "architecture": "Zen 4",
+  "socket": "SP5",
+  "process_node": "5 nm",
+  "cores": 96,
+  "threads": 192,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": null,
+  "boost_clock_ghz": null,
+  "l3_cache_mb": null,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": null,
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "AMD Eng Sample"
+  ],
+  "notes": "96-core EPYC Genoa engineering sample spotted in Geekbench running in a 2-way SP5 system; observed max clock was around 3.5 GHz.",
+  "source_urls": [
+    "https://wccftech.com/amd-epyc-9000-genoa-96-core-32-core-cpu-benchmarks-strong-single-threaded-performance/"
+  ]
+}

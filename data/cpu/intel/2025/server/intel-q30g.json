@@ -1,0 +1,39 @@
+{
+  "slug": "intel-q30g",
+  "name": "Intel Q30G Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "Q30G",
+  "opn": null,
+  "stepping": "A0",
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": null,
+  "first_seen_date": "2025-02-26",
+  "release_date": null,
+  "segment": "server",
+  "architecture": "Emerald Rapids",
+  "socket": "LGA4677",
+  "process_node": "Intel 7",
+  "cores": 48,
+  "threads": 96,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 1.8,
+  "boost_clock_ghz": 4.0,
+  "l3_cache_mb": 260.0,
+  "tdp_w": 330,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR5-4800",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "5th Gen Xeon Emerald Rapids engineering sample (A0 stepping): 48 cores, 330 W, 260 MB L3, 1.8-4.0 GHz per the tester's table.",
+  "source_urls": [
+    "https://cyberbus.net/post/557",
+    "https://cyberbus.net/post/354"
+  ]
+}

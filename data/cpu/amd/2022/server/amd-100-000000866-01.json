@@ -1,0 +1,38 @@
+{
+  "slug": "amd-100-000000866-01",
+  "name": "AMD 100-000000866-01 Engineering Sample",
+  "manufacturer": "amd",
+  "sample_class": "es",
+  "qspec": null,
+  "opn": "100-000000866-01",
+  "stepping": null,
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": null,
+  "first_seen_date": "2022-05-11",
+  "release_date": null,
+  "segment": "server",
+  "architecture": "Zen 4",
+  "socket": "SP5",
+  "process_node": "5 nm",
+  "cores": 32,
+  "threads": 64,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 1.2,
+  "boost_clock_ghz": null,
+  "l3_cache_mb": 128.0,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": null,
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "AMD Eng Sample"
+  ],
+  "notes": "EPYC Genoa engineering sample: 32C/64T with 128 MB L3 (four CCDs), 1.2 GHz base and a reported 4.6 GHz boost, which is preliminary and left unset.",
+  "source_urls": [
+    "https://wccftech.com/amd-epyc-7004-genoa-32-zen-4-core-cpu-sample-spotted-more-cache-4-6-ghz-clocks/"
+  ]
+}

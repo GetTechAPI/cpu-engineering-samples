@@ -1,0 +1,38 @@
+{
+  "slug": "amd-100-000000479-13",
+  "name": "AMD 100-000000479-13 Engineering Sample",
+  "manufacturer": "amd",
+  "sample_class": "es",
+  "qspec": null,
+  "opn": "100-000000479-13",
+  "stepping": null,
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": null,
+  "first_seen_date": "2022-03-28",
+  "release_date": null,
+  "segment": "server",
+  "architecture": "Zen 4",
+  "socket": "SP5",
+  "process_node": "5 nm",
+  "cores": 32,
+  "threads": 64,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 1.2,
+  "boost_clock_ghz": null,
+  "l3_cache_mb": 128.0,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": null,
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "AMD Eng Sample"
+  ],
+  "notes": "Early EPYC Genoa engineering sample tested on AMD's Quartz reference board: 32C/64T, 1.2 GHz base, about 3.43 GHz all-core boost observed, 128 MB L3.",
+  "source_urls": [
+    "https://wccftech.com/amd-epyc-genoa-zen-4-early-cpu-sample-benchmark-leak-32-cores-3-4-ghz-clocks-1-mb-l2-cache/"
+  ]
+}

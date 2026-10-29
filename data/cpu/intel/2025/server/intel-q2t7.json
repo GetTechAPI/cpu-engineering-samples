@@ -1,0 +1,38 @@
+{
+  "slug": "intel-q2t7",
+  "name": "Intel Q2T7 Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "Q2T7",
+  "opn": null,
+  "stepping": "A0",
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": null,
+  "first_seen_date": "2025-05-14",
+  "release_date": null,
+  "segment": "server",
+  "architecture": "Emerald Rapids",
+  "socket": "LGA4677",
+  "process_node": "Intel 7",
+  "cores": 52,
+  "threads": 104,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 1.8,
+  "boost_clock_ghz": 4.0,
+  "l3_cache_mb": 300.0,
+  "tdp_w": 300,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR5-4800",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "5th Gen Xeon Emerald Rapids engineering sample (A0 stepping): 52 cores, 300 W, 300 MB L3, 1.8-4.0 GHz per the tester's table.",
+  "source_urls": [
+    "https://cyberbus.net/post/557"
+  ]
+}
