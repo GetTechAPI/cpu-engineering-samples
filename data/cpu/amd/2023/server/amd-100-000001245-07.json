@@ -1,0 +1,38 @@
+{
+  "slug": "amd-100-000001245-07",
+  "name": "AMD 100-000001245-07 Engineering Sample",
+  "manufacturer": "amd",
+  "sample_class": "es",
+  "qspec": null,
+  "opn": "100-000001245-07",
+  "stepping": null,
+  "cpuid": null,
+  "sample_revision": "es2",
+  "retail_equivalent": null,
+  "first_seen_date": "2023-12-17",
+  "release_date": null,
+  "segment": "server",
+  "architecture": "Zen 5",
+  "socket": "SP5",
+  "process_node": null,
+  "cores": 128,
+  "threads": 256,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": null,
+  "boost_clock_ghz": null,
+  "l3_cache_mb": 512.0,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": null,
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "AMD Eng Sample"
+  ],
+  "notes": "EPYC Turin ES2 engineering sample pictured in a leak, made in 2023: 16 CCDs plus IOD, 128 Zen 5 cores and 512 MB L3.",
+  "source_urls": [
+    "https://wccftech.com/amd-zen-5-epyc-turin-cpus-pictured-128-core-zen-5-192-core-zen-5c-flavors/"
+  ]
+}

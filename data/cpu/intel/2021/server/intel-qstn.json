@@ -1,0 +1,38 @@
+{
+  "slug": "intel-qstn",
+  "name": "Intel QSTN Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "QSTN",
+  "opn": null,
+  "stepping": "A0",
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": null,
+  "first_seen_date": "2021-01-10",
+  "release_date": null,
+  "segment": "server",
+  "architecture": "Ice Lake-SP",
+  "socket": "LGA4189",
+  "process_node": "10 nm",
+  "cores": 14,
+  "threads": 28,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.0,
+  "boost_clock_ghz": null,
+  "l3_cache_mb": 21.0,
+  "tdp_w": 165,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": null,
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Ice Lake-SP engineering sample (QSTN-A0) tested on an Intel Whitley board; 14C/28T, 21 MB L3, 165 W. AIDA64 and CPU-Z did not recognise it, and the 4.0 GHz max turbo the tester reported is left unset.",
+  "source_urls": [
+    "https://linustechtips.com/topic/1292076-about-the-third-generation-intel-xeon-processor-10nm-icelake-sp/"
+  ]
+}

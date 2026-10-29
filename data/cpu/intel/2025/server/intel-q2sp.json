@@ -1,0 +1,38 @@
+{
+  "slug": "intel-q2sp",
+  "name": "Intel Q2SP Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "Q2SP",
+  "opn": null,
+  "stepping": "A0",
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": null,
+  "first_seen_date": "2025-05-14",
+  "release_date": null,
+  "segment": "server",
+  "architecture": "Emerald Rapids",
+  "socket": "LGA4677",
+  "process_node": "Intel 7",
+  "cores": 60,
+  "threads": 120,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.0,
+  "boost_clock_ghz": 4.0,
+  "l3_cache_mb": 300.0,
+  "tdp_w": 350,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR5-5600",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "5th Gen Xeon Emerald Rapids engineering sample (A0 stepping): 60 cores, 350 W, 300 MB L3, 2.0-4.0 GHz per the tester's table.",
+  "source_urls": [
+    "https://cyberbus.net/post/557"
+  ]
+}
