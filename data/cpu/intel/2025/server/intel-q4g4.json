@@ -19,7 +19,7 @@
   "threads": 256,
   "p_cores": null,
   "e_cores": null,
-  "base_clock_ghz": 3.5,
+  "base_clock_ghz": null,
   "boost_clock_ghz": null,
   "l3_cache_mb": 504.0,
   "tdp_w": 550,
@@ -31,7 +31,7 @@
   "markings": [
     "Intel Confidential"
   ],
-  "notes": "Xeon 6 Granite Rapids engineering sample described by a second-hand seller: 128 cores, 504 MB L3, 550 W TDP, B0 stepping. The 3.5 GHz base clock is as reported and unverified.",
+  "notes": "Xeon 6 Granite Rapids engineering sample described by a second-hand seller: 128 cores, 504 MB L3, 550 W TDP, B0 stepping. The seller listed 3.5 GHz; it is not recorded as the base clock because it exceeds the retail Xeon 6980P's 2.0 GHz base and 3.2 GHz all-core turbo.",
   "source_urls": [
     "https://cyberbus.net/post/551"
   ]
