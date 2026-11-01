@@ -1,0 +1,39 @@
+{
+  "slug": "intel-q2y6",
+  "name": "Intel Q2Y6 Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "Q2Y6",
+  "opn": null,
+  "stepping": "R0",
+  "cpuid": "C06F1",
+  "sample_revision": "es2",
+  "retail_equivalent": null,
+  "first_seen_date": "2025-02-26",
+  "release_date": null,
+  "segment": "server",
+  "architecture": "Emerald Rapids",
+  "socket": "LGA4677",
+  "process_node": "Intel 7",
+  "cores": 16,
+  "threads": 32,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.0,
+  "boost_clock_ghz": 3.5,
+  "l3_cache_mb": 30.0,
+  "tdp_w": 150,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR5-4400",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "5th Gen Xeon Emerald Rapids engineering sample (R0 stepping): 16 cores, 150 W, 30 MB L3, 2.0-3.5 GHz per the tester's table. HWiNFO identifies it as ES2.",
+  "source_urls": [
+    "https://cyberbus.net/post/557",
+    "https://cyberbus.net/post/353"
+  ]
+}

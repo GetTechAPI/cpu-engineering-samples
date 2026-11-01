@@ -1,0 +1,39 @@
+{
+  "slug": "intel-qyfs",
+  "name": "Intel QYFS Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "QYFS",
+  "opn": null,
+  "stepping": null,
+  "cpuid": null,
+  "sample_revision": "es2",
+  "retail_equivalent": null,
+  "first_seen_date": "2022-04-18",
+  "release_date": null,
+  "segment": "server",
+  "architecture": "Sapphire Rapids",
+  "socket": "LGA4677",
+  "process_node": "Intel 7",
+  "cores": 56,
+  "threads": 112,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 1.9,
+  "boost_clock_ghz": 3.3,
+  "l3_cache_mb": 105,
+  "tdp_w": 350,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR5",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Sapphire Rapids-SP ES2 engineering sample (QYFS) on Socket E. Leak reports 350 W PL1 / 420 W PL2 and up to 3.7 GHz single-core boost; likely Xeon Platinum 8476 or 8480 class.",
+  "source_urls": [
+    "https://www.guru3d.com/story/at-420w-the-intel-sapphire-rapids-56-core-es-cpu-reaches-3-3-ghz/",
+    "https://en.wikipedia.org/wiki/Sapphire_Rapids"
+  ]
+}

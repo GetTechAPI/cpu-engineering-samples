@@ -1,0 +1,38 @@
+{
+  "slug": "intel-qyfr",
+  "name": "Intel QYFR Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "QYFR",
+  "opn": null,
+  "stepping": "D0",
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": null,
+  "first_seen_date": "2025-05-14",
+  "release_date": null,
+  "segment": "server",
+  "architecture": "Sapphire Rapids",
+  "socket": "LGA4677",
+  "process_node": "Intel 7",
+  "cores": 56,
+  "threads": 112,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": null,
+  "boost_clock_ghz": null,
+  "l3_cache_mb": null,
+  "tdp_w": null,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": null,
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "56-core 4th Gen Xeon (Sapphire Rapids) D0-stepping engineering sample; the tester reports it frequently hung, describing D0 ES parts as unstable.",
+  "source_urls": [
+    "https://cyberbus.net/post/557"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "intel-q4g4",
+  "name": "Intel Q4G4 Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "Q4G4",
+  "opn": null,
+  "stepping": "B0",
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": null,
+  "first_seen_date": "2025-05-11",
+  "release_date": null,
+  "segment": "server",
+  "architecture": "Granite Rapids",
+  "socket": "LGA7529",
+  "process_node": "Intel 3",
+  "cores": 128,
+  "threads": 256,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": null,
+  "boost_clock_ghz": null,
+  "l3_cache_mb": 504.0,
+  "tdp_w": 550,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": null,
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Xeon 6 Granite Rapids engineering sample described by a second-hand seller: 128 cores, 504 MB L3, 550 W TDP, B0 stepping. The seller listed 3.5 GHz; it is not recorded as the base clock because it exceeds the retail Xeon 6980P's 2.0 GHz base and 3.2 GHz all-core turbo.",
+  "source_urls": [
+    "https://cyberbus.net/post/551"
+  ]
+}

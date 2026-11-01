@@ -1,0 +1,38 @@
+{
+  "slug": "intel-q076",
+  "name": "Intel Q076 Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "Q076",
+  "opn": null,
+  "stepping": "R0",
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": null,
+  "first_seen_date": "2025-05-11",
+  "release_date": null,
+  "segment": "server",
+  "architecture": "Sapphire Rapids",
+  "socket": "LGA4677",
+  "process_node": "Intel 7",
+  "cores": 16,
+  "threads": 32,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.1,
+  "boost_clock_ghz": 3.8,
+  "l3_cache_mb": 30.0,
+  "tdp_w": 150,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR5-4400",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "4th Gen Xeon Sapphire Rapids MCC engineering sample (R0 stepping per the tester's table): 16 cores, 150 W, 30 MB L3, 2.1-3.8 GHz.",
+  "source_urls": [
+    "https://cyberbus.net/post/550"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "intel-qyfq",
+  "name": "Intel QYFQ Engineering Sample",
+  "manufacturer": "intel",
+  "sample_class": "es",
+  "qspec": "QYFQ",
+  "opn": null,
+  "stepping": "D0",
+  "cpuid": null,
+  "sample_revision": "es1",
+  "retail_equivalent": null,
+  "first_seen_date": "2022-02-15",
+  "release_date": null,
+  "segment": "server",
+  "architecture": "Sapphire Rapids",
+  "socket": "LGA4677",
+  "process_node": "Intel 7",
+  "cores": 48,
+  "threads": 96,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.3,
+  "boost_clock_ghz": 3.3,
+  "l3_cache_mb": 90,
+  "tdp_w": 270,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR5",
+  "msrp_usd": null,
+  "verified": false,
+  "markings": [
+    "Intel Confidential"
+  ],
+  "notes": "Sapphire Rapids-SP engineering sample (QYFQ, D0) benchmarked in a dual-socket system against EPYC 7773X Milan-X. No HBM.",
+  "source_urls": [
+    "https://www.club386.com/intel-sapphire-rapids-xeon-tested-against-amd-epyc-7773x-milan-x",
+    "https://www.tomshardware.com/news/sapphire-rapids-milan-x-epic-fight",
+    "https://en.wikipedia.org/wiki/Sapphire_Rapids"
+  ]
+}
