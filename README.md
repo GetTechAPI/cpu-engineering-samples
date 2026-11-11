@@ -5,7 +5,7 @@
 [![validate-data](https://github.com/GetTechAPI/cpu-engineering-samples/actions/workflows/validate-data.yml/badge.svg)](https://github.com/GetTechAPI/cpu-engineering-samples/actions/workflows/validate-data.yml)
 &nbsp;Data: **CC-BY-SA 4.0** · Code: **MIT**
 
-Retail / production CPUs live in [**TechAPI**](https://github.com/GetTechAPI/TechAPI). Qualification samples (QS) are also out of scope. This repository is a **prototype** holding area for publicly documented ES parts so they never mix into the official catalog.
+Retail / production CPUs live in [**TechAPI**](https://github.com/GetTechAPI/TechAPI) under `data/cpu/`; this repository holds engineering samples only and publishes its own `summary.json`, which TechAPI's site reads for the record count. Qualification samples (QS) are also out of scope. This repository is a **prototype** holding area for publicly documented ES parts so they never mix into the official catalog.
 
 ## Scope
 
@@ -20,10 +20,20 @@ ES processors are pre-production parts. They are not for sale, not warranted, an
 ## Layout
 
 ```text
-data/cpu/<manufacturer>/<year>/<segment>/<slug>.json
-app/validate.py          # stdlib validator; rejects QS/retail
-site/                    # static index (GitHub Pages)
+data/cpu/<manufacturer>/<year>/<segment>/<slug>.json   # one ES record per file
+app/validate.py              # stdlib validator; rejects QS/retail
+app/ingest/classify.py       # offline es / qs / retail / unknown classifier (python -m app.ingest)
+app/ingest/from_table.py     # writes ES records from a local JSON/JSONL table
+site/build.py                # writes site/catalog.json, summary.json and history.json
+site/index.html              # static index (GitHub Pages)
+tests/                       # pytest: validator, classifier, table ingest
+.github/workflows/
+  validate-data.yml          # validator + tests on PRs and pushes to develop/main
+  final-check.yml            # label-triggered check with one TechEngineBot comment
+  deploy-pages.yml           # builds site/ and deploys Pages from main
 ```
+
+The three JSON files under `site/` are build output and are not committed.
 
 Slugs identify the **sample** (`intel-qxlb`, `amd-100-000000665-21-n`), not the retail name. `retail_equivalent` is an optional TechAPI CPU slug string, not a foreign key.
 
@@ -44,7 +54,16 @@ Intake is **classify-then-write**. A candidate is `es`, `qs`, `retail`, or `unkn
 python -m app.ingest path/to/candidate.json
 ```
 
-No network. Identifier rules: Intel S-spec → retail, Q-spec + early stepping / low clocks / “Intel Confidential” → es, Q-spec labeled QS or mature stepping with retail clocks → qs. AMD `100-00000…` / Eng Sample → es, historical `Z…` OPN → qs.
+It prints the classification as JSON and writes nothing. No network. Identifier rules: Intel S-spec → retail, Q-spec + early stepping / low clocks / “Intel Confidential” → es, Q-spec labeled QS or mature stepping with retail clocks → qs. AMD `100-00000…` / Eng Sample → es, historical `Z…` OPN → qs.
+
+To turn a local table into records, run the table ingest:
+
+```bash
+python -m app.ingest.from_table path/to/table.json --dry-run
+python -m app.ingest.from_table path/to/table.json
+```
+
+The table is a JSON array or JSONL, one object per row. Each row is classified; `es` rows are written to `data/cpu/<manufacturer>/<year>/<segment>/<slug>.json` (`year` comes from the row's `year` or `first_seen_date`, `segment` defaults to `desktop`). Rows that classify as `qs`, `retail` or `unknown`, and slugs that already exist, are skipped and listed in the printed summary. `--dry-run` prints the same summary without writing. The exit code is 1 when a row has no usable slug. Run `python -m app.validate` afterwards.
 
 Crawlers come later. This classifier is the gate.
 
@@ -64,7 +83,7 @@ A maintainer adds the `final-check` label to an important PR. The `final-check` 
 
 ## Contributing
 
-Open a PR against `develop` with a new/updated JSON file. `sample_class` must be `es`. Include `qspec` (Intel) and/or `opn` (AMD) and at least one public `source_url`.
+Open a PR against `develop` with a new/updated JSON file. `sample_class` must be `es`. Include `qspec` (Intel) and/or `opn` (AMD) and at least one public URL in `source_urls`.
 
 ## License
 
