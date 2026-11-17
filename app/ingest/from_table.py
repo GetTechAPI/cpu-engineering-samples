@@ -1,6 +1,9 @@
 """Write ES JSON from a local table (JSON/JSONL). No network.
 
+Run as ``python -m app.ingest.from_table TABLE [--dry-run]``.
+
 Rows that classify as qs/retail/unknown are skipped. Existing slugs are skipped.
+Skipped rows are only listed in the printed summary; nothing else is written.
 """
 
 from __future__ import annotations

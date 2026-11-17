@@ -1,7 +1,8 @@
 """Offline ES / QS / retail classifier.
 
 No network. A candidate must be ``es`` before the ingest pipeline may write JSON.
-QS and retail belong in TechAPI or nowhere; ``unknown`` goes to a review issue.
+QS and retail belong in TechAPI or nowhere; ``unknown`` is reported and left for
+a maintainer to review by hand.
 """
 
 from __future__ import annotations
